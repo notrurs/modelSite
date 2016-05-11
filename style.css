@@ -1,0 +1,8 @@
+.hero {
+    width: 99%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(images/header-bg.png);
+    top: 0;
+    left: 0;
+}

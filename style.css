@@ -1,8 +1,160 @@
 .hero {
-    width: 99%;
-    height: 99%;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url(images/header-bg.png);
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    background: rgba(0, 0, 0, 0.5) url(images/header-bg.jpg);
     top: 0;
     left: 0;
+    z-index: 1;
+}
+
+.shadow{
+    position: fixed;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(images/shadow.png);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.top-hero {
+    position: absolute;
+    width: 1158px;
+    height: 48px;
+    margin-left: 381px;
+    margin-top: 15px;
+    z-index: 3;
+}
+
+.salem {
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    z-index: 3;
+}
+
+A{
+    text-decoration: none;
+}
+
+A:visited{
+    color: white;
+}
+
+A:active{
+    color: white;
+}
+
+A:hover{
+    color: white;
+}
+
+.salem-link{
+    position: absolute;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    height: auto;
+    line-height: 36px;
+    z-index: 3;
+}
+
+.menu{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: 1110px;
+    text-align: center;
+    z-index: 3;
+}
+
+.text-hero{
+    position: absolute;
+    width: 1064px;
+    height: 74px;
+    margin-left: 428px;
+    margin-top: 433px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    z-index: 3;
+}
+
+.line{
+    position: absolute;
+    width: 145px;
+    height: 3px;
+    margin-top: 530px;
+    margin-left: 888px;
+    background-image: url(images/line.png);
+    z-index: 3;
+}
+
+.big-text{
+    width: 800px;
+    height: 77px;
+    margin-top: 560px;
+    margin-left: 560px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    z-index: 3;
+}
+
+.but-down{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    margin-top: 850px;
+    margin-left: 932px;
+    text-align: center;
+    z-index: 3;
+}
+
+.two-but{
+    position: absolute;
+    width: 149px;
+    height: 100px;
+    margin-top: 930px;
+    margin-left: 1691px;
+    z-index: 3;
+}
+
+.circ1{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    background-image: url(images/shadowcirc.png);
+    z-index: 3;
+}
+
+.circ2{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    margin-left: 77px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-image: url(images/shadowcirc.png);
+    z-index: 3;
+}
+
+.correct1{
+    padding-top: 12px;
+    padding-left: 7px;
+}
+
+.correct2{
+    padding-top: 22px;
 }
